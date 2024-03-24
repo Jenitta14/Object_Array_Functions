@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <script>
+        let side1;  
+        let side2; 
+        let side3;
+        function findTriangleType(){
+        if(side1=side2=side3==0){
+            return "It is an Equilateral triangle."
+        }
+        if((side1=side2==0 )|| (side2=side3==0)){
+            return "It is an Isosceles triangle"  
+        }
+        if((side1=side2==0 )&& (side2=side3==0)){
+         return "It is a Scalene triangle."
+        }
+    }
+        let total=findTriangleType(20,30,20)
+        console.log(total)
+
+    </script>
+</html>
